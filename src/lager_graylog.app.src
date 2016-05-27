@@ -1,20 +1,10 @@
-%-*-Erlang-*-
-{application, lager_graylog,
- [
-  {description, "An Erlang lager_graylog library"},
-  {vsn, "0.1.0"},
-  {modules, [
-             lager_graylog
-            ]},
-  {registered, []},
-  {applications, [
-                  kernel,
-                  stdlib
-                 ]},
-  {env, []},
-  {maintainers, ["esl", "Heinz N. Gies"]},
-  {licenses, ["Other"]},
-  {links,[{"Github",
-           "https://github.com/esl/lager_graylog"}]}
- ]
-}.
+{application,lager_graylog,
+             [{description,"An Erlang lager_graylog library"},
+              {vsn,"0.1.1"},
+              {modules,[lager,lager_graylog]},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {maintainers,["esl","Heinz N. Gies"]},
+              {licenses,["Other"]},
+              {links,[{"Github","https://github.com/esl/lager_graylog"}]}]}.
