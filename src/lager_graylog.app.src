@@ -1,6 +1,6 @@
 {application,lager_graylog,
              [{description,"An Erlang lager_graylog library"},
-              {vsn,"0.1.1"},
+              {vsn, git},
               {modules,[lager,lager_graylog]},
               {registered,[]},
               {applications,[kernel,stdlib]},
